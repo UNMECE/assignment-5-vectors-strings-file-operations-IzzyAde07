@@ -57,8 +57,6 @@ void average_colors(std::vector<Pixel> &pixel_list) {
 
     for (const auto &pixel : pixel_list) {
         total_r += pixel.r;
-        total_g += pixel.g;
-        total_b += pixel.b;
     }
     std::cout << "Average R: " << total_r / count << "\n";
 }
